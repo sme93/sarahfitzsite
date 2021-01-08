@@ -1,3 +1,6 @@
+---
+title: "Day 3"
+---
 Continued learning about functions on Codecademy this morning, specifically about the scope of
 values and functions. Combined with learning about arrow functions yesterday, I decided it would be
 good practice if I changed all of my functions in my "Speckled Frogs" code to arrow functions.
@@ -42,7 +45,7 @@ function tenSpeckledFrogs(startingNumber) {
 tenSpeckledFrogs(10);
 tenSpeckledFrogs(15);
 ```
-and I turned it into this (after some headaches).
+and I turned it into this...
 
 ```JS
 const jumpInPool = () => {
@@ -61,7 +64,6 @@ const tenSpeckledFrogs = (startingNumber) => {
     console.log(speckledFrogsOutput);
     if (i >= 3) {
       speckledFrogsOutput += eatingBugs(i);
-      //console.log(speckledFrogsOutput);
       console.log("One jumped in the pool where its nice and cool, then there were " + speckledFrog(i) + "s.");
     }
     if (i === 2) {
@@ -79,3 +81,4 @@ const tenSpeckledFrogs = (startingNumber) => {
 
 tenSpeckledFrogs(4);
 ```
+Today I was listening to Thundercat while I was learning and coding. Happy Friday.

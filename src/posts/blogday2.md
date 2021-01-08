@@ -1,3 +1,6 @@
+---
+title: "Day 2"
+---
 I spent yesterday reviewing Javascript If Statements, and I learned about Ternary Operators
 and Switch Statements. I also bought and set up this domain using a Gatsby template.
 
