@@ -9,7 +9,7 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1>100 days of Code Blog</h1>
     <h2>Day 2 of 100 days of Code</h2>
-    <p>I spent yesterday reviewing Javascript if statements, and I learned about Ternary Operators
+    <p>I spent yesterday reviewing Javascript If Statements, and I learned about Ternary Operators
     and Switch Statements. I also bought and set up this domain using a Gatsby template.</p>
     <p>Today I worked on function review on codecademy. I learned about default parameters,
     return statements, function expressions and arrow functions.</p>
