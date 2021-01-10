@@ -1,6 +1,10 @@
 ---
 title: "Day 4"
 ---
+import Layout from "../components/layout"
+
+<Layout>
+
 Reviewed Arrays this afternoon on Codecademy and learned a few new things.
 
 Even when declared with const, arrays are still mutable, but a variable declared with const cannot be reassigned. I also learned that arrays can be nested inside other arrays. Here is some practice of nesting arrays and accessing different elements inside the array.
@@ -49,4 +53,6 @@ console.log(bestBuffyCharacters);
 ```
 Ok! Enough for today.
 
-I listened to Whitney and Beach House while I was coding today. 
+I listened to Whitney and Beach House while I was coding.
+
+</Layout>

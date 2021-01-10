@@ -1,6 +1,11 @@
 ---
 title: "Day 3"
 ---
+
+import Layout from "../components/layout"
+
+<Layout>
+
 Continued learning about functions on Codecademy this morning, specifically about the scope of
 values and functions. Combined with learning about arrow functions yesterday, I decided it would be
 good practice if I changed all of my functions in my "Speckled Frogs" code to arrow functions.
@@ -82,3 +87,5 @@ const tenSpeckledFrogs = (startingNumber) => {
 tenSpeckledFrogs(4);
 ```
 Today I was listening to Thundercat while I was learning and coding. Happy Friday.
+
+</Layout>
