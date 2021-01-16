@@ -9,19 +9,20 @@ const PostsPage = ({ data }) => {
   const { edges } = data.allMdx
 
   return (
-  <Layout>
-    <SEO title="Page two" />
-    <h1>100 days of Code Blog</h1>
-    <ul>
-        <li>Blog Posts</li>
+    <Layout>
+      <SEO title="Page two" />
+      <h1>100 days of Code Blog</h1>
+      <ul
+        className="post-unordered-list">
         {edges.map(item => (
-          <li><Link to={`/${item.node.slug}`}>{item.node.frontmatter.title}</Link> </li>
+          <li className="post-links"><Link to={`/${item.node.slug}`}>{item.node.frontmatter.title}</Link> </li>
         ))}
       </ul>
-    
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)}
+
+      <Link to="/">Go back to the homepage</Link>
+    </Layout>
+  )
+}
 
 export const pageQuery = graphql`
   query ContentIndex {

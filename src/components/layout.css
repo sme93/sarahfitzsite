@@ -595,3 +595,37 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+/*  sarahs website styles  */
+
+
+.header {
+  background: rgb(4, 143, 148);
+  margin-bottom: 1.45rem;
+}
+
+.header-layout {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+}
+
+.header-h1 {
+  margin: 0;
+  font-size: 70px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+}
+
+.post-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-unordered-list {
+  list-style: none;
+}
