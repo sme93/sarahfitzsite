@@ -598,7 +598,14 @@ pre tt:after {
 
 
 /*  sarahs website styles  */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
+.base-font {
+  font-size: 18px;
+}
 
 .header {
   background: rgb(4, 143, 148);
