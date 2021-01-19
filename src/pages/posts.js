@@ -11,7 +11,7 @@ const PostsPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Page two" />
-      <h1>100 days of Code Blog</h1>
+      <h1>#100DaysofCode Blog</h1>
       <ul
         className="post-unordered-list">
         {edges.map(item => (
