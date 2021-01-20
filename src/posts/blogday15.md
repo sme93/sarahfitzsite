@@ -41,3 +41,5 @@ I plan on using that as a basis for one of my hiking posts, with photos.
 Now that I'm done with HTML for the day I'll head over to codecademy and do some Javascript review.
 
 Currently listening to Soft Sounds from Another Planet by Japanese Breakfast.
+
+</Layout>
