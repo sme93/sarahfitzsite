@@ -1,5 +1,5 @@
 ---
-title: "Days 15"
+title: "Day 15"
 ---
 import Layout from "../components/layout"
 
