@@ -4,9 +4,14 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const getNumber = (blogday) => {
+  const postNumber =  blogday.replace("blogday", "");
+  return parseInt(postNumber);
+}
+
 const PostsPage = ({ data }) => {
-  console.log(data);
   const { edges } = data.allMdx
+  edges.sort((a, b) => getNumber(b.node.slug) - getNumber(a.node.slug));
 
   return (
     <Layout>
@@ -15,7 +20,10 @@ const PostsPage = ({ data }) => {
       <ul
         className="post-unordered-list">
         {edges.map(item => (
-          <li className="post-links"><Link to={`/${item.node.slug}`}>{item.node.frontmatter.title}</Link> </li>
+          <li key={item.node.id} className="post-links">
+            <Link to={`/${item.node.slug}`}>{item.node.frontmatter.title}</Link> 
+            <p>{item.node.excerpt}</p>
+          </li>
         ))}
       </ul>
 
@@ -38,6 +46,7 @@ export const pageQuery = graphql`
             title
           }
           slug
+          excerpt
         }
       }
     }
