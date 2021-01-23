@@ -2,12 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const SkyPondPage = () => (
     <Layout>
-        <SEO title="Hiking List Page" />
+        <SEO title="Sky Pond" />
         <h1>Hike to Sky Pond</h1>
         <h3>8.5 miles/1,761 ft elevation gain</h3>
         <img src="https://lh3.googleusercontent.com/pw/ACtC-3fKEIKDChRKzpHl0UK1xPfiA8ONYYD5qIEVUnoiiwnnqnHQEoxt0wnydkMmvUJcNI_4dl1tQmpdC-NC_co2Q1tKbcDZ0TsY32N_RNhRSmqn_5nTnBgGvqhdyokdryTH7quxb7v5Ks6ibmfHwSzrp8U-Pg=w900-h1358-no" alt="cathedral spires" className="align-left" title="cathedral spires at Sky Pond" />
@@ -27,6 +26,7 @@ const SkyPondPage = () => (
         Once we made it to Sky Pond we did some celebratory burpees on the ice and then headed back down. It
         was a beautiful, sunny day, and a great way to start off the new year.
         </p>
+        <Link to="/hiking/">Go back to the hiking page</Link>
     </Layout>
 )
 

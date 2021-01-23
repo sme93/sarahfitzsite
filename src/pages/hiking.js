@@ -10,7 +10,6 @@ const HikingListPage = () => (
     <SEO title="Hiking List Page" />
     <h1>hiking</h1>
     <p>This is where I post about hikes.</p>
-    <p>I haven't done that yet though.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
