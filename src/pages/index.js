@@ -34,7 +34,7 @@ const IndexPage = () => (
         <Link to="/hiking/">
           <div className="card-header">
             <h2 className="heading-font card-font">Click here for Hiking</h2>
-            <p className="base-font card-font">Coming soon</p>
+            <p className="base-font card-font">Photos and Reviews of Hiking Adventures</p>
           </div>
           <div className="card-image">
             <Image />
