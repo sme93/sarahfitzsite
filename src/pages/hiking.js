@@ -14,7 +14,7 @@ const HikingListPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/posts/">Check out my coding challenge!</Link> <br />
+    <Link to="/skypond/">Check out my hike to Sky Pond!</Link> <br />
   </Layout>
 )
 
