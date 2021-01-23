@@ -16,25 +16,33 @@ const IndexPage = () => (
       Working on the #100DaysofCode challenge to stay motivated.</p>
     </section>
 
-    <section>
-      <Link to="/posts">
-        <h2 className="base-font">Click here for Coding</h2>
-        <p className="base-font">Blog posts updating my progress with #100DaysofCode</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <CodeImage />
-        </div>
-     </Link>
-    </section>
+    <div className="homepage-container">
 
-    <section>
-      <Link to="/hiking/">
-        <h2 className="base-font">Click here for Hiking</h2>
-        <p className="base-font">Coming soon</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
-        </div>
-      </Link>
-    </section>
+      <section className="card">
+        <Link to="/posts">
+          <div className="card-header">
+            <h2 className="heading-font card-font">Click here for Coding</h2>
+            <p className="base-font card-font">#100DaysofCode blog</p>
+          </div>
+          <div className="card-image">
+            <CodeImage />
+          </div>
+        </Link>
+      </section>
+
+      <section className="card">
+        <Link to="/hiking/">
+          <div className="card-header">
+            <h2 className="heading-font card-font">Click here for Hiking</h2>
+            <p className="base-font card-font">Coming soon</p>
+          </div>
+          <div className="card-image">
+            <Image />
+          </div>
+        </Link>
+      </section>
+
+    </div>
 
   </Layout>
 )

@@ -605,6 +605,17 @@ a {
 
 .base-font {
   font-size: 18px;
+  color: rgb(52, 54, 54);
+}
+
+.heading-font {
+  font-size: 24px;
+  color: rgb(52, 54, 54);
+  margin-bottom: 1rem;
+}
+
+.card-font {
+  color: white;
 }
 
 .header {
@@ -635,4 +646,26 @@ a {
 
 .post-unordered-list {
   list-style: none;
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  padding: 1.45rem;
+  background: rgb(52, 54, 54);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.card-header {
+  min-height: 130px;
+}
+
+.card-image {
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 1.45rem;
+}
+
+.homepage-container {
+  display: flex;
 }
