@@ -683,6 +683,31 @@ a {
   display: flex;
 }
 
+/* Frozen Lake Styles */
+
+.body-container {
+  display: flex;
+}
+
+.frozen-card {
+  flex: 2;
+  margin: 10px;
+}
+
+.hiking-pic {
+ 
+}
+
+.p-one {
+  border:2px darkblue;
+  border-width: 2px;;
+}
+
+.p-two {
+  border:2px darkred;
+  border-width: 2px;
+}
+
 /* mobile styles */
 
 @media only screen and (max-width: 600px) {
