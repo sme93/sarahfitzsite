@@ -13,7 +13,8 @@ const HikingListPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/skypond/">Check out my hike to Sky Pond!</Link> <br />
+    <Link to="/skypond/">Click here for  the hike to Sky Pond - January 2021</Link> <br />
+    <Link to="/frozenlake/">Click here for the hike to Frozen Lake - October 2020</Link> <br />
   </Layout>
 )
 
