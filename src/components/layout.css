@@ -712,6 +712,21 @@ a {
   font-size: 130%;
 }
 
+/*hiking homepage styles*/
+
+.intro-box {
+  height: 100px;
+  background-color: green;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  margin: 20px;
+  padding: 30px;
+}
+
+.intro-p {
+  font-size: 150%;
+  font-weight: 400;
+}
+
 /* mobile styles */
 
 @media only screen and (max-width: 600px) {
