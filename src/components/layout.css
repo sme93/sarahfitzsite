@@ -695,17 +695,21 @@ a {
 }
 
 .hiking-pic {
- 
+  flex: 3;
+  margin: 10px;
 }
 
 .p-one {
-  border:2px darkblue;
-  border-width: 2px;;
+  font-size: 20px;
+  line-height: 1.45;
 }
 
-.p-two {
-  border:2px darkred;
-  border-width: 2px;
+.p-one::first-letter {
+  font-size: 130%;
+}
+
+.p-two::first-letter {
+  font-size: 130%;
 }
 
 /* mobile styles */

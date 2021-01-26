@@ -11,8 +11,8 @@ const FrozenLakePage = () => (
         <h3>11 miles/2,530 ft elevation gain</h3>
         <img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_AAHZ0QyvNAC_MxCdizbRlBh0NU8cXJmDX2hhp9dGgYolSzQiH0Ck6OoiPvU4w4__D0OjbcGR_S0GYNNhhHCe_MMomWiVci4vGPwPdUuBRLd4AQrUaBNBbaRCf40hpzUmMRuLX2XZ497LmJUFBgrQ=w2052-h1358-no?authuser=0" alt="colorful tundra" title="colorful tundra" />
         <div> 
-            <div>
-                <section>
+            <div className="body-container">
+                <section className="frozen-card">
                     <p className="p-one">We hiked up to Frozen Lake in early October of last year. It's a fairly ambitious hike,
                     and luckily we knew what we were getting ourselves into because we had tried to get there the year
                     before but got lost up on the tundra. Unfortunately we forgot to bring the cooler that had our 
@@ -21,13 +21,16 @@ const FrozenLakePage = () => (
                     to the trailhead.</p>
                 </section>
                 
-                <section>
-                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3cKbAo3Oif0Qdrb-SfvF6fKaQJ-01osokdCirFjv0dIXLEaYp2aI1imoODI1QZgAzghOL9qfoZOm1tbjuRsCIkJKE_YPaIBl-YOtxuOnnWjEX_4M7jXah3F_bk4NikSXx_0hDL6TK4bEXSmxGK5vXKxew=w900-h1358-no?authuser=0" className="hiking-pic" alt="alpine lake" title="mills lake" />   
+                <section className="hiking-pic">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3cKbAo3Oif0Qdrb-SfvF6fKaQJ-01osokdCirFjv0dIXLEaYp2aI1imoODI1QZgAzghOL9qfoZOm1tbjuRsCIkJKE_YPaIBl-YOtxuOnnWjEX_4M7jXah3F_bk4NikSXx_0hDL6TK4bEXSmxGK5vXKxew=w900-h1358-no?authuser=0" alt="alpine lake" title="mills lake" />   
                 </section>
             </div>
 
-            <div>
-                <section>
+            <div className="body-container">
+                <section className="hiking-pic">   
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3fr1a-a24WqXlhtslcSnmqVgA4fusE_RozuZAqmsy4MJgK6XbGwuzUYeLCXpd_UAClRiWC20nWTATNY1dENMXblhXfsVcN7vZ505lVD8Ks9RZKVgsFxr4yMSDSIMi2kt3jU1ROd-DISnHK8l1UnGoIAAw=w900-h1358-no?authuser=0" alt="alpine lake with mountains" title="black lake" />
+                </section>
+                <section className="frozen-card">
                     <p className="p-two">The hike starts at the Glacier Gorge trailhead, going up past the falls and 
                     following the trail to Mills Lake. Mills Lake is probably one of the prettiest places
                     to hang out in Rocky Mountian National Park, as long as it's not a windy day. If you keep 
@@ -40,15 +43,12 @@ const FrozenLakePage = () => (
                     breathe once you are up on the tundra and doing the final ascent to Frozen Lake is tough.
                     It was windy and cold next to Frozen Lake, and we only hung out for a little while before heading back down.</p>
                 </section>
-                <section>   
-                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3fr1a-a24WqXlhtslcSnmqVgA4fusE_RozuZAqmsy4MJgK6XbGwuzUYeLCXpd_UAClRiWC20nWTATNY1dENMXblhXfsVcN7vZ505lVD8Ks9RZKVgsFxr4yMSDSIMi2kt3jU1ROd-DISnHK8l1UnGoIAAw=w900-h1358-no?authuser=0" className="hiking-pic" alt="alpine lake with mountains" title="black lake" />
-                </section>
             </div>
         </div> 
 
         <div>
             <section>
-                <p>This is fantastic, challenging hike. 10/10 would recommend to anyone comfortable with
+                <p>This is a fantastic, challenging hike. 10/10 would recommend to anyone comfortable with
                 hiking at elevation.</p>
             </section>
         </div>
