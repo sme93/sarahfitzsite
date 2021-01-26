@@ -14,8 +14,8 @@ const FrozenLakePage = () => (
             <div className="body-container">
                 <section className="frozen-card">
                     <p className="p-one">We hiked up to Frozen Lake in early October of last year. It's a fairly ambitious hike,
-                    and luckily we knew what we were getting ourselves into because we had tried to get there the year
-                    before but got lost up on the tundra. Unfortunately we forgot to bring the cooler that had our 
+                    but we knew what we were getting ourselves into because we had tried to get there the year
+                    before and got lost up on the tundra. Unfortunately we forgot to bring the cooler that had our 
                     peanut butter and jelly sandwiches in it so we did the whole hike running on Rx bars and trail mix. It was
                     not ideal, and we were pretty sad by the time we were making our way back 
                     to the trailhead.</p>
@@ -31,7 +31,7 @@ const FrozenLakePage = () => (
                     <img src="https://lh3.googleusercontent.com/pw/ACtC-3fr1a-a24WqXlhtslcSnmqVgA4fusE_RozuZAqmsy4MJgK6XbGwuzUYeLCXpd_UAClRiWC20nWTATNY1dENMXblhXfsVcN7vZ505lVD8Ks9RZKVgsFxr4yMSDSIMi2kt3jU1ROd-DISnHK8l1UnGoIAAw=w900-h1358-no?authuser=0" alt="alpine lake with mountains" title="black lake" />
                 </section>
                 <section className="frozen-card">
-                    <p className="p-two">The hike starts at the Glacier Gorge trailhead, going up past the falls and 
+                    <p className="p-two">The hike starts at the Glacier Gorge trailhead, going up past Alberta Falls and 
                     following the trail to Mills Lake. Mills Lake is probably one of the prettiest places
                     to hang out in Rocky Mountian National Park, as long as it's not a windy day. If you keep 
                     going past the lake there is quite a long stretch of hiking until you make it to Black Lake. 
