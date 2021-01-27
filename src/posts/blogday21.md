@@ -7,18 +7,18 @@ import Layout from "../components/layout"
 
 Yesterday was my 20th day in a row of coding! All the twitter bots were excited about it anyway. I wrote my Frozen Lake hiking post in HTML and then spent hours trying to style it with CSS. It really didn't go well, but what I have now is fine... I guess. I'm leaving it that way in any case. This morning I decided to try to style the hiking homepage and that went just about as well as yesterday. I'm moving on and doing some Javascript exercises.
 
-Starting in on Classes in JS. Let's start off my making a class - 
+Starting in on Classes in JS. Let's start off my making a class -
 
 ```JS
 class Employee {
     constructor(name, department) {
-        this.name = name;
-        this.department = department;
-        this.tardiness = 0;
+        this._name = name;
+        this._department = department;
+        this._tardiness = 0;
     }
 }
 ```
-Now we can make instances of our employee class - 
+Now we can make instances of our employee class -
 ```JS
 var employeeSussman = new Employee("Sussman", "Grocery");
 var employeeKristin = new Employee("Kristin", "Cheese");
@@ -28,26 +28,26 @@ We can add getters and setters, and some methods to our class.
 ```JS
 class Employee {
     constructor(name, department) {
-        this.name = name;
-        this.department = department;
-        this.tardiness = 0;
-        this.remainingVacationDays = 5;
+        this._name = name;
+        this._department = department;
+        this._tardiness = 0;
+        this._remainingVacationDays = 5;
     }
-    
+
     get name() {
-        return this.name;
+        return this._name;
     }
 
     incrementTardiness() {
-    this.tardiness++;
+    this._tardiness++;
     }  
 
     get remainingVacationDays() {
-        return this.remainingVacationDays;
+        return this._remainingVacationDays;
     }
 
     takeVacationDays(daysOff) {
-        this.remainingVacationDays -= daysOff;
+        this._remainingVacationDays -= daysOff;
     }
 }
 
@@ -64,9 +64,8 @@ console.log(employeeSussman);
 // }
 ```
 
-I listened to Lucky Leaves by Krill while I was coding today. 
+I listened to Lucky Leaves by Krill while I was coding today.
 
-See you tomorrow. 
+See you tomorrow.
 
 </Layout>
-
