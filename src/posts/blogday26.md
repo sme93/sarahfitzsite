@@ -7,9 +7,13 @@ title: "Day 26"
 First official day of school! Spent some time after class working on navigating around my command line, making and deleting new directories and files,  and learning a few new commands.
 
 mv - moves files
+
 cp - copies files cp[source][destination]
+
 man - manual lookup
+
 pbcopy - copy - pbcopy < [file]
+
 pbpaste - paste - pbpaste > [file]
 
 pretty cool.
