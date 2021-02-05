@@ -2,6 +2,8 @@
 title: "Day 27"
 ---
 
+import Layout from "../components/layout"
+
 <Layout>
 
 Today we learned about Objects and Functions. I worked on some basic object lessons in a Rep.l but I'll post it here.

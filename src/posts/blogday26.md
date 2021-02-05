@@ -2,6 +2,8 @@
 title: "Day 26"
 ---
 
+import Layout from "../components/layout"
+
 <Layout>
 
 First official day of school! Spent some time after class working on navigating around my command line, making and deleting new directories and files,  and learning a few new commands.

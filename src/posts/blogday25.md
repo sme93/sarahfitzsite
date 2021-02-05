@@ -2,6 +2,8 @@
 title: "Day 25"
 ---
 
+import Layout from "../components/layout"
+
 <Layout>
 
 Day 25, so I'm 1/4 of the way through my 100 days. Huzzah. I did some practice with Javascript functions today.

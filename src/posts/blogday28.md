@@ -2,6 +2,8 @@
 title: "Day 28"
 ---
 
+import Layout from "../components/layout"
+
 <Layout>
 
 Today I worked on the warm-up exercises for my first project -- see below. I tested everything in the console and it all checks out. Tomorrow I'll start the actual project. I also worked on dot notation practice in a Repl.it. Here's the link to see that - https://repl.it/@sme93/dot-notation-practice#index.js

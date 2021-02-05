@@ -2,6 +2,8 @@
 title: "Day 29"
 ---
 
+import Layout from "../components/layout"
+
 <Layout>
 
 Today I wrote the most beautiful for loop after writing super complicated versions of the loop during all my pom breaks at school. Here's the link to the
