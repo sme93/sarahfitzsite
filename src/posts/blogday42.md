@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 <Layout>
 
-Almost getting to the halfway point if the 100 days of code project! I haven't been doing blog posts for the last few days because they've been super hectic - but I've been tweeting about what I've been up to.
+Almost getting to the halfway point of the 100 days of code project! I haven't been doing blog posts for the last few days because they've been super hectic - but I've been tweeting about what I've been up to.
 
 First, here's the link to my completed partner project. https://sme93.github.io/hang-in-there-boilerplate/ Check it out! You can create random motivational posters, make your own poster, add posters to a saved posters page and also delete posters by double-clicking on them.
 
