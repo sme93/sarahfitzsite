@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    '@pauliescanlon/gatsby-mdx-embed',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
