@@ -10,14 +10,26 @@ const HikingListPage = () => (
     <SEO title="Hiking List Page" />
     <h1>hiking</h1>
     <div className="intro-box">
-      <p className="intro-p">Hiking in Rocky Mountain National Park and the surrounding areas.</p>
-    </div>  
+      <p className="intro-p">
+        Hiking in Rocky Mountain National Park and the surrounding areas.
+      </p>
+    </div>
     <div>
       <HikeImage />
     </div>
     <div className="intro-box">
-      <Link to="/skypond/">Click here for  the hike to Sky Pond - January 2021</Link> <br />
-      <Link to="/frozenlake/">Click here for the hike to Frozen Lake - October 2020</Link> <br />
+      <Link to="/skypond/">
+        Click here for the hike to Sky Pond - January 2021
+      </Link>{" "}
+      <br />
+      <Link to="/frozenlake/">
+        Click here for the hike to Frozen Lake - October 2020
+      </Link>{" "}
+      <br />
+      <Link to="/crystallake/">
+        Click here for the hike to Crystal Lakes - July 2021
+      </Link>{" "}
+      <br />
     </div>
   </Layout>
 )

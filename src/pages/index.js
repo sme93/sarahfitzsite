@@ -12,12 +12,14 @@ const IndexPage = () => (
 
     <section>
       <h1>Front-End Engineering Student</h1>
-      <p className="base-font">Currently enrolled at Turing School of Software and Design. Supplementing my learning with Codecademy tutorials on HTML, CSS, and Javascript.
-      Working on the #100DaysofCode challenge to stay motivated.</p>
+      <p className="base-font">
+        Web Developer and hiker. Learning with Wes Bos and Codecademy tutorials
+        on HTML, CSS, and Javascript. Working on the #100DaysofCode challenge to
+        stay motivated.
+      </p>
     </section>
 
     <div className="homepage-container">
-
       <section className="card">
         <Link to="/posts">
           <div className="card-header">
@@ -34,16 +36,16 @@ const IndexPage = () => (
         <Link to="/hiking/">
           <div className="card-header">
             <h2 className="heading-font card-font">Click here for Hiking</h2>
-            <p className="base-font card-font">Photos and Reviews of Hiking Adventures</p>
+            <p className="base-font card-font">
+              Photos and Reviews of Hiking Adventures
+            </p>
           </div>
           <div className="card-image">
             <Image />
           </div>
         </Link>
       </section>
-
     </div>
-
   </Layout>
 )
 
