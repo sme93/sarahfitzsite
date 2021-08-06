@@ -597,6 +597,12 @@ pre tt:after {
 }
 
 /*  sarahs website styles  */
+:root {
+  --main-bg-color: brown;
+  --item-padding: 8px;
+  --item-padding-sm: 4px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -724,6 +730,55 @@ a {
   padding: 30px;
   font-size: 150%;
   font-weight: 400;
+  text-align: center;
+}
+
+/* destinations grid styles */
+.destinations-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--item-padding);
+}
+
+.destination-item {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination-image {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+}
+
+.destination-text {
+  z-index: 100;
+  flex: 1;
+  text-align: center;
+  line-height: 1.6;
+  padding: var(--item-padding-sm);
+  margin: 0 var(--item-padding);
+  color: transparent;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.destination-text:hover {
+  background-color: green;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.destination-title {
+  font-size: 42px;
+}
+
+.destination-date {
+  font-size: 20px;
 }
 
 /* mobile styles */

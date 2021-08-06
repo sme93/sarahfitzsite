@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    '@pauliescanlon/gatsby-mdx-embed',
+    "@pauliescanlon/gatsby-mdx-embed",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,6 +35,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
