@@ -749,6 +749,8 @@ a {
 }
 
 .destination-image {
+  min-height: 250px;
+  min-width: 250px;
   border-radius: 50%;
   position: absolute;
   z-index: 0;
