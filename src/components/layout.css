@@ -598,7 +598,14 @@ pre tt:after {
 
 /*  sarahs website styles  */
 :root {
-  --main-bg-color: brown;
+  --main-brand-color: rgb(8, 176, 175);
+  --main-highlight-color: rgb(214, 84, 22);
+  --main-alternate-color: rgb(125, 131, 45);
+  --main-lowlight-color: rgb(241, 225, 165);
+  --main-dark-color: rgb(12, 0, 2);
+  --main-light-color: rgb(247, 246, 240);
+  --main-light-alternate-color: rgb(130, 131, 136);
+  --main-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   --item-padding: 8px;
   --item-padding-sm: 4px;
 }
@@ -610,23 +617,23 @@ a {
 
 .base-font {
   font-size: 18px;
-  color: rgb(52, 54, 54);
+  color: var(--main-dark-color);
 }
 
 .heading-font {
   font-size: 24px;
-  color: rgb(52, 54, 54);
+  color: var(--main-dark-color);
   margin-bottom: 1rem;
 }
 
 .card-font {
-  color: white;
+  color: var(--main-light-color);
 }
 
 .header {
   background: rgb(52, 54, 54);
-  margin-bottom: 1.45rem;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--main-shadow);
+  position: sticky;
 }
 
 .header-layout {
@@ -641,14 +648,14 @@ a {
 }
 
 .header-link {
-  color: white;
+  color: var(--main-light-color);
   text-decoration: none;
 }
 
 .post-links {
   padding: 1.45rem;
   margin: 10px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--main-shadow);
 }
 
 .post-links a {
@@ -721,8 +728,8 @@ a {
 .intro-box {
   height: 100px;
   max-width: 100%;
-  background-color: green;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  background-color: var(--main-brand-color);
+  box-shadow: var(--main-shadow);
 }
 
 .intro-p {
@@ -771,9 +778,9 @@ a {
 }
 
 .destination-text:hover {
-  background-color: green;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  color: white;
+  background-color: var(--main-brand-color);
+  box-shadow: var(--main-shadow);
+  color: var(--main-light-color);
 }
 
 .destination-title {
@@ -784,7 +791,64 @@ a {
   font-size: 20px;
 }
 
-/* mobile styles */
+/* title-grid */
+.title-grid {
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+}
+
+.title-item {
+  min-height: 200px;
+  flex: 2;
+}
+
+.title-photo-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--main-brand-color);
+  align-content: flex-end;
+}
+
+.title-photo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* max-height: 150px;
+  border-radius: 50%;
+  background-color: var(--main-light-color);
+  z-index: 100; */
+}
+
+.test {
+  border-radius: 50%;
+}
+
+/* crystal-lakes */
+/* .crystal-lakes-img {
+  height: 350px;
+  width: 500px;
+} */
+
+.crystal-lakes-section {
+  display: flex;
+}
+
+.crystal-lakes-description {
+  flex: 1;
+  max-height: 350px;
+  padding: 5px;
+}
+
+.crystal-lakes-photo {
+  flex: 2;
+  padding: 5px;
+}
+
+.order {
+  order: 1;
+}
 
 @media only screen and (max-width: 600px) {
   .homepage-container {

@@ -11,11 +11,10 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <section>
-      <h1>Front-End Engineering Student</h1>
+      <h1>Web developer and hiker</h1>
       <p className="base-font">
-        Web Developer and hiker. Learning with Wes Bos and Codecademy tutorials
-        on HTML, CSS, and Javascript. Working on the #100DaysofCode challenge to
-        stay motivated.
+        Learning with Wes Bos and Codecademy tutorials on HTML, CSS, and
+        Javascript. Working on the #100DaysofCode challenge to stay motivated.
       </p>
     </section>
 

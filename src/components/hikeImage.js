@@ -13,12 +13,12 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-const HikeImage = () => {
-    const data = useStaticQuery(graphql`
+const HikeImage = props => {
+  const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "hikeImage.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 600) {
+          fluid(maxWidth: 400, maxHeight: 400) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,11 +26,11 @@ const HikeImage = () => {
     }
   `)
 
-    if (!data?.placeholderImage?.childImageSharp?.fluid) {
-        return <div>Picture not found</div>
-    }
+  if (!data?.placeholderImage?.childImageSharp?.fluid) {
+    return <div>Picture not found</div>
+  }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} {...props} />
 }
 
 export default HikeImage

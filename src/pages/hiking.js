@@ -9,14 +9,18 @@ import SEO from "../components/seo"
 const HikingListPage = () => (
   <Layout>
     <SEO title="Hiking List Page" />
-    <h1>hiking</h1>
-    <div className="intro-box">
-      <p className="intro-p">
-        Rocky Mountain National Park and the surrounding areas
-      </p>
-    </div>
-    <div>
-      <HikeImage />
+    <div className="title-grid">
+      <div className="title-item title-photo-container">
+        <div className="title-photo">
+          <HikeImage className="test" />
+        </div>
+      </div>
+      <div className="title-item">
+        <h1>hiking</h1>
+        <p className="intro-p">
+          Rocky Mountain National Park and the surrounding areas
+        </p>
+      </div>
     </div>
     <div className="destinations-grid">
       <div className="destination-item">
