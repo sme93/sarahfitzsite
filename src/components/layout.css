@@ -610,6 +610,11 @@ pre tt:after {
   --item-padding-sm: 4px;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -799,7 +804,7 @@ a {
 }
 
 .title-item {
-  min-height: 200px;
+  min-height: 300px;
   flex: 2;
 }
 
@@ -809,27 +814,21 @@ a {
   flex: 1;
   background-color: var(--main-brand-color);
   align-content: flex-end;
+  position: relative;
 }
 
 .title-photo {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  /* max-height: 150px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
-  background-color: var(--main-light-color);
-  z-index: 100; */
 }
 
 .test {
   border-radius: 50%;
 }
-
-/* crystal-lakes */
-/* .crystal-lakes-img {
-  height: 350px;
-  width: 500px;
-} */
 
 .crystal-lakes-section {
   display: flex;
@@ -848,6 +847,28 @@ a {
 
 .order {
   order: 1;
+}
+
+@media only screen and (min-width: 725px) and (max-width: 900px) {
+  .title-photo-container {
+    flex: 1.5;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .title-grid {
+    flex-direction: column;
+  }
+
+  .title-photo-container {
+    min-height: 400px;
+    background: linear-gradient(
+      to top,
+      transparent 15%,
+      var(--main-brand-color) 15% 85%,
+      transparent 85%
+    );
+  }
 }
 
 @media only screen and (max-width: 600px) {
